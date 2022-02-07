@@ -1,0 +1,47 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    color: rgb(46, 46, 161);
+    display: flex;
+    justify-content: center;
+}
+
+.score-wrapper{
+    background-color: rgb(128, 128, 128, .1);
+    padding: 1.5em;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    font-weight: 600;
+    align-items: baseline;
+    color: rgb(57, 57, 252);
+    display: none;
+}
+.score-wrapper span{
+    font-size: 2em;
+}
+
+.quiz-wrapper{
+    background-color: rgb(57, 57, 252);
+    padding: 2rem 4.5rem;
+    color: white;
+}
+
+h2{
+    margin-bottom: 4rem;
+}
+
+.questions{
+    margin-bottom: 1.5rem;
+    margin-top: 3rem;
+}
+
+.options{
+    margin-left: 2rem;
+}
